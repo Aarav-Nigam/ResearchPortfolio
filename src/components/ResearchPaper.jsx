@@ -6,6 +6,8 @@ const ResearchPaper = () => {
   const params = useParams();
   const paperId = params.id;
   const paper = researchData.find(paper => paper.id === paperId);
+  console.log("hello");
+  console.log(paramsId);
 
   return (
     <div className="container mt-5">
